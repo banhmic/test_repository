@@ -14,6 +14,9 @@ import java.util.Scanner;
  */
 public class CheckInput {
 	
+	public static void main(String[] args) {
+		System.out.println("fuck");
+	}
 	/**
 	 * Checks if the inputted value is an integer.
 	 * @return the valid input.
