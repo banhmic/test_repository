@@ -44,25 +44,7 @@ public class CheckInput {
 	 * @param high upper bound of the range.
 	 * @return the valid input.
 	 */
-	public static int getIntRange( int low, int high ) {
-		Scanner in = new Scanner( System.in );
-		int input = 0;
-		boolean valid = false;
-		while( !valid ) {
-			if( in.hasNextInt() ) {
-				input = in.nextInt();
-				if( input <= high && input >= low ) {
-					valid = true;
-				} else {
-					System.out.println( "Invalid Range." );
-				}
-			} else {
-				in.next(); //clear invalid string
-				System.out.println( "Invalid Input." );
-			}
-		}
-		return input;
-	}
+
 	/**
 	 * Checks if the inputted value is a non-negative integer.
 	 * @return the valid input.
