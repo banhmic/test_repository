@@ -72,7 +72,7 @@ public class GuessingGame
 			}
 		}
 		
-		return input;
+		return input+1;
 	}
 
 }
